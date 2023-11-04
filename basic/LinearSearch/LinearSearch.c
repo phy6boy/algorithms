@@ -42,8 +42,6 @@ int main(){
     return 0;
 }
 
-
-
 int linear_search_int(int *arr, size_t n, int key){
     // Linear Search through integer array `arr`
     // Input :
