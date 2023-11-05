@@ -20,7 +20,7 @@ int linear_search(T *arr, size_t n, T key){
     //              if not present, return -1
 
     //Iterate through element of arr
-    for(int i=0; i<n; i++){
+    for(size_t i=0; i<n; i++){
         if(arr[i] == key){
             return i;
         }
