@@ -1,5 +1,5 @@
 /**********************************************************************
- * Simple linear search in C++
+ * Simple binary search in C++
  * Author : Muhammed Muhsin A. <muhsinibnalazeez@gmail.com>
  *
  * Compile (assuming gcc) : g++ -Wall BinarySearch.cpp -o BinarySearch.x
@@ -45,19 +45,19 @@ int main() {
   key = 33;
   index = binary_search<int>(arr, size, key);
   if(index != -1){
-    printf("Key = %d; index = %d\n", key, index);
+    std::cout << "Key = " << key << "; index = " << index << std::endl;
   }
   else{
-    printf("Key = %d; index = NOT FOUND\n", key);
+    std::cout << "Key = " << key << "; index = NOT FOUND" << std::endl;
   }
   
   key = 123;
   index = binary_search<int>(arr, size, key);
   if(index != -1){
-    printf("Key = %d; index = %d\n", key, index);
+    std::cout << "Key = " << key << "; index = " << index << std::endl;
   }
   else{
-    printf("Key = %d; index = NOT FOUND\n", key);
+    std::cout << "Key = " << key << "; index = NOT FOUND" << std::endl;
   }
 
   return 0;
